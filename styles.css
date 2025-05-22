@@ -1,6 +1,7 @@
 
 body{
   background-color: rgb(0, 44, 0);
+  color: beige;
 }
 
 img{
@@ -22,3 +23,34 @@ header{
   list-style-type: none;
 }
 
+button {
+  background-color: rgb(0, 44, 0);
+  border: none;
+  color: beige;
+  padding: 10px 15px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.hero{
+  display: grid;
+  justify-content: center;
+}
+
+
+.about{
+  display: grid;
+  justify-content: center;
+
+}
+
+.productPhotos{
+    display: flex;
+    flex-direction: row;
+  }  
+
+.productInfo{
+  display: flex;
+  flex-direction: row;
+}
